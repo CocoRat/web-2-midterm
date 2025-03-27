@@ -1,12 +1,13 @@
 /* nav bar */
 nav ul {
     border-style:groove;
-    border-color: rgb(225, 178, 9);
+    border-color: rgb(0, 200, 255);
     border-radius: 70px;
-    background-color: #ce6a00;
+    background-color: #f176aa;
     list-style-type: none;
-    padding: 10px;
+    padding: 25px;
     margin: 20px;
+    box-shadow: 5px 10px rgb(0, 200, 255);
   }
 
   nav ul li {
@@ -14,15 +15,25 @@ nav ul {
     margin: 0 40px;
   }
   nav ul li a {
-    color: rgb(0, 4, 255);
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 18px;
-    padding: 18px;
+    font-size: 15px;
+    padding: 15px;
   }
   nav ul li :hover {
-    background-color: #ce00a1;
+    background-color: #ffbee1;
     border-block-start-style: groove;
-    padding: 20px;
+    border-radius: 15px;
+    border-top: 10px;
+    padding: 30px;
+    font-size-adjust: 20px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+
+  }
+  
+  .active {
+    color: rgb(255, 251, 240);
   }
 
   /* symantics */
@@ -31,7 +42,7 @@ nav ul {
     font-family: Arial, sans-serif;
     margin: 10;
     padding: 10;
-    background-color: #5100ff;
+    background-color: #eb9edf;
     color: white;
   }
   header {
@@ -48,24 +59,24 @@ nav ul {
 
   /* miscallaneous classes - grid classes etc*/
   h1 {
-    color: #0072ce;
-    background: rgba(0, 0, 0, 0.6);
+    color: #e34db4;
+    background: rgba(240, 50, 199, 0.402);
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;}
   
-  .doot {
+  .image_grid {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #333;
     padding: 20px;
   }
-  .doot img {
+  .image_grid img {
     max-width: 100%;
     height: auto;
   }
-  .race {
+  .text_grid {
     text-align: center;
     padding: 20px;
     font-size: 20px;
