@@ -1,1 +1,91 @@
+/* nav bar */
+nav ul {
+    border-style:groove;
+    border-color: rgb(225, 178, 9);
+    border-radius: 70px;
+    background-color: #ce6a00;
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+  }
 
+  nav ul li {
+    display: inline;
+    margin: 0 40px;
+  }
+  nav ul li a {
+    color: rgb(0, 4, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 18px;
+  }
+  nav ul li :hover {
+    background-color: #ce00a1;
+    border-block-start-style: groove;
+    padding: 20px;
+  }
+
+  /* symantics */
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #5100ff;
+    color: white;
+  }
+  header {
+    padding: 40px;
+    text-align: center;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  /* miscallaneous classes - grid classes etc*/
+  h1 {
+    color: #0072ce;
+    background: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;}
+  
+  .doot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    padding: 20px;
+  }
+  .doot img {
+    max-width: 100%;
+    height: auto;
+  }
+  .race {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+
+  /* media display code */
+  
+  /* code paraphrased from reddit */
+  
+  @media (min-width: 768px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+/* code that fits main page image */
+
+  /* taken from open stax */
+  .fit {
+    max-width: 99%;
+    max-height: 99%;
+  }
