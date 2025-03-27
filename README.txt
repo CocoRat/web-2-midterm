@@ -9,6 +9,7 @@ Forum - Maya
 Gallery - Sydney
 Homepage - all
 
+ROLES:
 Lead Design: Fred
 Copywriter: Molly
 Project Manager: Sydney
