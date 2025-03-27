@@ -1,1 +1,37 @@
-
+body {
+    background-color: #fefefe; /* light background to keep it clean */
+    /*assuing font is in main css or will be, so not adding yet!*/  
+    color: #002244; /* dark blue is one of our main colors */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #002244;
+    color: yellow; /*YELLOW pops!*/
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .section {
+    border: 2px solid orange; /*secondary color border*/
+    padding: 20px;
+    border-radius: 15px; /*round edges*/
+    margin-bottom: 20px;
+    background-color: #ffffff;
+  }
+  
+  h1, h2 {
+    font-size: medium;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
