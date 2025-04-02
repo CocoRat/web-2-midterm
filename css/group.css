@@ -1,1 +1,102 @@
+/* nav bar */
+nav ul {
+    border-style:groove;
+    border-color: rgb(0, 200, 255);
+    border-radius: 70px;
+    background-color: #f176aa;
+    list-style-type: none;
+    padding: 25px;
+    margin: 20px;
+    box-shadow: 5px 10px rgb(0, 200, 255);
+  }
 
+  nav ul li {
+    display: inline;
+    margin: 0 40px;
+  }
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px;
+  }
+  nav ul li :hover {
+    background-color: #ffbee1;
+    border-block-start-style: groove;
+    border-radius: 15px;
+    border-top: 10px;
+    padding: 30px;
+    font-size-adjust: 20px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+
+  }
+  
+  .active {
+    color: rgb(255, 251, 240);
+  }
+
+  /* symantics */
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #eb9edf;
+    color: white;
+  }
+  header {
+    padding: 40px;
+    text-align: center;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  /* miscallaneous classes - grid classes etc*/
+  h1 {
+    color: #e34db4;
+    background: rgba(240, 50, 199, 0.402);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;}
+  
+  .image_grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    padding: 20px;
+  }
+  .image_grid img {
+    max-width: 100%;
+    height: auto;
+  }
+  .text_grid {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+
+  /* media display code */
+  
+  /* code paraphrased from reddit */
+  
+  @media (min-width: 768px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+/* code that fits main page image */
+
+  /* taken from open stax */
+  .fit {
+    max-width: 99%;
+    max-height: 99%;
+  }
