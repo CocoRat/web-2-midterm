@@ -1,13 +1,13 @@
 /* nav bar */
 nav ul {
     border-style:groove;
-    border-color: rgb(0, 200, 255);
+    border-color: 	#ff8007;
     border-radius: 70px;
-    background-color: #f176aa;
+    background-color: 	#ffb404;
     list-style-type: none;
     padding: 25px;
     margin: 20px;
-    box-shadow: 5px 10px rgb(0, 200, 255);
+    box-shadow:	#a78400;
   }
 
   nav ul li {
@@ -21,7 +21,7 @@ nav ul {
     padding: 15px;
   }
   nav ul li :hover {
-    background-color: #ffbee1;
+    background-color:	#ff3902;
     border-block-start-style: groove;
     border-radius: 15px;
     border-top: 10px;
@@ -42,7 +42,7 @@ nav ul {
     font-family: Arial, sans-serif;
     margin: 10;
     padding: 10;
-    background-color: #eb9edf;
+    background-color:	#05badd;
     color: white;
   }
   header {
@@ -57,13 +57,16 @@ nav ul {
     padding: 20px;
   }
 
-  /* miscallaneous classes - grid classes etc*/
+  /* miscallaneous classes, grid classes etc*/
   h1 {
-    color: #e34db4;
-    background: rgba(240, 50, 199, 0.402);
+    color: 		#ff3902;
+    background:	#ffb404;
     display: inline-block;
     padding: 10px 20px;
-    border-radius: 5px;}
+    font-family: "jumble", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 15px;}
   
   .image_grid {
     display: flex;
