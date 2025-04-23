@@ -67,6 +67,17 @@ nav ul {
     font-weight: 400;
     font-style: normal;
     border-radius: 15px;}
+
+  h2 {
+    color:#ff3902;
+    background:	#ffb404;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: "jumble", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    border-radius: 15px;}
   
   .image_grid {
     display: flex;
@@ -80,9 +91,13 @@ nav ul {
     height: auto;
   }
   .text_grid {
+    border-style:groove;
     text-align: center;
     padding: 20px;
     font-size: 20px;
+    border-color: #ff3902;
+    padding: auto;
+    border-radius: 25px;
   }
 
 
