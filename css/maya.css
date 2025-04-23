@@ -32,3 +32,18 @@
     grid-row: 1 / span 3;
 
 }
+
+.btn {
+    background-color: green;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "jumble", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
