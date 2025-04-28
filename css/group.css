@@ -1,4 +1,7 @@
 /* nav bar */
+nav {
+  position: sticky;
+}
 nav ul {
     border-style:groove;
     border-color: 	#ff8007;
@@ -10,6 +13,7 @@ nav ul {
     box-shadow:	#a78400;
   }
 
+  /*nav bar hover effects are currently broken*/
   nav ul li {
     display: inline;
     margin: 0 40px;
@@ -21,12 +25,8 @@ nav ul {
     padding: 15px;
   }
   nav ul li :hover {
+    
     background-color:	#ff3902;
-    border-block-start-style: groove;
-    border-radius: 15px;
-    border-top: 10px;
-    padding: 30px;
-    font-size-adjust: 20px;
     font-family: 'Lucida Sans';
     font-style: italic;
 
@@ -59,7 +59,7 @@ nav ul {
 
   /* miscallaneous classes, grid classes etc*/
   h1 {
-    color: 		#ff3902;
+    color: 	#ff3902;
     background:	#ffb404;
     display: inline-block;
     padding: 10px 20px;
