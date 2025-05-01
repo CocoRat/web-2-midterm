@@ -1,35 +1,47 @@
-/* --- nav bar copy and pasted from group CSS --- */
+nav {
+  position: sticky;
+}
 nav ul {
-  border-style: groove;
-  border-color: #ff8007;
-  border-radius: 70px;
-  background-color: #ffb404;
-  list-style-type: none;
-  padding: 25px;
-  margin: 20px;
-  box-shadow: 0 4px 12px rgba(167, 132, 0, 0.8);
-  text-align: center;
-}
+    border-style:groove;
+    border-color: 	#ff8007;
+    border-radius: 70px;
+    background-color: 	#ffb404;
+    list-style-type: none;
+    padding: 25px;
+    margin: 20px;
+    box-shadow:	#a78400;
+  }
 
-nav ul li {
-  display: inline;
-  margin: 0 40px;
-}
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 15px;
-  padding: 15px;
-}
+  nav ul li {
+    display: inline;
+    margin: 0 40px;
+  }
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px;
+    opacity: .8;
+    transition: .6s;
+  }
 
-nav ul li a:hover {
-  background-color: #ff3902;
-  border-radius: 15px;
-  padding: 30px;
-  font-family: 'Lucida Sans', sans-serif;
-  font-style: italic;
-}
+  nav ul li a:hover {
+    
+    background-color:	#ff3902;
+    font-family: 'Lucida Sans';
+    border-style: dashed;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 15px;
+    /* code for opactiy (not color) transition paraphrased from stackoverflow */
+    opacity: 1.0;
+    color: #b1bfde;
+    transition: opacity .6s ease-in-out;
+                  -moz-transition: opacity .6s ease-in-out;
+                  -webkit-transition: opacity .6s ease-in-out;
+    transition: .6s;
+  }
 
 .active {
   color: #fffbe0;
