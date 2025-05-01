@@ -1,16 +1,51 @@
-/*style sheet for cat and about pages*/
-/* didnt know if we changed color themes or not, but this is an easy change! */
+nav ul {
+  border-style: groove;
+  border-color: #ff8007;
+  border-radius: 70px;
+  background-color: #ffb404;
+  list-style-type: none;
+  padding: 25px;
+  margin: 20px;
+  box-shadow: 0 4px 12px rgba(167, 132, 0, 0.8);
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 40px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 15px;
+}
+
+nav ul li a:hover {
+  background-color: #ff3902;
+  border-radius: 15px;
+  padding: 30px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-style: italic;
+}
+
+.active {
+  color: #fffbe0;
+}
+
+/* --- General Page Style --- */
 body {
-  margin: 0;
+  margin: 10px;
+  padding: 10px;
   font-family: Arial, sans-serif;
-  background-color: #f3f8ff;
-  color: #2c2c2c; 
+  background-color: #05badd;
+  color: white;
 }
 
 header {
-  background-color: #c2cbed;
+  padding: 40px;
   text-align: center;
-  padding: 4rem 1rem 2rem;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -22,31 +57,39 @@ header::before {
   top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background-color: #e9f4ff;
-  opacity: 0.7;
+  background-color: rgba(5, 186, 221, 0.3);
   z-index: 0;
 }
 
-header h1,
-header p {
+header h1, header p {
   position: relative;
   z-index: 1;
   margin: 0;
 }
 
 header h1 {
+  color: #ff3902;
+  background: #ffb404;
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: "jumble", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 15px;
   font-size: 3rem;
   margin-bottom: 0.5rem;
-  color:  #4581e9;
 }
 
 header p {
   font-size: 1.2rem;
-  color: #2c2c2c;
 }
 
+/* --- Main Content --- */
 main {
-  padding: 3rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
   max-width: 900px;
   margin: auto;
 }
@@ -55,15 +98,16 @@ main {
   background-color: #fff;
   padding: 1.5rem;
   border-radius: 10px;
+  color: #2c2c2c;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   margin-bottom: 2rem;
-  border-left: 4px solid #e9c045;
+  border-left: 4px solid #ff8007;
 }
 
 .section h2 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #4581e9;
+  color: #ff3902;
 }
 
 .section p, .section ul {
@@ -76,6 +120,7 @@ ul {
   padding-left: 1.5rem;
 }
 
+/* --- Footer --- */
 footer {
   text-align: center;
   padding: 2rem;
@@ -83,4 +128,27 @@ footer {
   background-color: #fff;
   color: #2c2c2c;
   border-top: 1px solid #ddd;
+}
+
+/* --- Contact Links --- */
+.section a {
+  color: #ff3902;
+  text-decoration: underline;
+}
+
+.section a:hover {
+  color: #ff8007;
+}
+
+/* --- Responsive Layout --- */
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* --- Fit Images Class --- */
+.fit {
+  max-width: 99%;
+  max-height: 99%;
 }
