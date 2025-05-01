@@ -33,6 +33,19 @@
 
 }
 
+.forum-row {
+    text-align: left;
+    padding: 20px;
+    gap: 5px;
+}
+
+.forum-content {
+    background-color: aqua;
+    padding: 20px;
+    gap: 5px;
+    font-stretch: condensed;
+}
+
 
 h1,
 h2,
@@ -43,4 +56,8 @@ h6 {
     font-family: "jumble", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+body {
+    background-color: aqua;
 }
