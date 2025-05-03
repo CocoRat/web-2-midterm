@@ -7,7 +7,6 @@ FAQ - Fred
 About us/Priv Policy/Contat - Molly
 Forum - Maya
 Gallery - Sydney
-Homepage - all
 
 ROLES:
 Lead Design: Fred
