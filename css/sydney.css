@@ -50,3 +50,31 @@
   background-color: white;
   color: black;
 }
+
+/* making sure that something in the group code wasn't being overrided from the group css */
+main {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.text_grid {
+  background-color: #fff !important;
+  border: 0px !important;
+  padding: 1.5rem !important;
+  border-radius: 10px !important;
+  color: #2c2c2c !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+  border-left: 4px solid #ff8007 !important;
+  font-size: 1rem !important;
+}
+
+.image_grid {
+  background-color: rgb(253, 226, 206) !important;
+}
+
+.text_grid h3 {
+  font-size: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
+  color: #ff3902 !important;
+  background-color: none !important;
+}
