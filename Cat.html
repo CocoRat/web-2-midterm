@@ -1,34 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cat Index</title>
   <link rel="stylesheet" href="css/molly.css">
+  <style>
+    .cat-header {
+      background-image: url('catlooking.png');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      padding: 4rem 1rem 2rem;
+      text-align: center;
+      overflow: hidden;
+    }
+    .cat-header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(5, 186, 221, 0.4);
+      z-index: 0;
+    }
+    .cat-header h1, .cat-header p {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+    }
+    .cat-header h1 {
+      color: #ff3902;
+      background: #ffb404;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 15px;
+      font-family: "jumble", sans-serif;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    .cat-header p {
+      font-size: 1.2rem;
+      color: white;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body class="w3-container w3-center w3-animate-opacity">
 
-  <header style="background-image: url('../images/cat-banner.png');">
+  <header class="cat-header">
     <h1>Cat Index</h1>
     <p>A guide to everything feline</p>
   </header>
 
   <nav>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="Cat.html" class="active">Cats</a></li>
-      <li><a href="dogs.html">Dogs</a></li>
-      <li><a href="forums.html">Forums</a></li>
-      <li><a href="FAQ.html">FAQ</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="About.html">About</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dogs.html">Dogs</a></li>
+        <li><a href="Cat.html" class="active">Cats</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="forums.html">Forums</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="about.html">About</a></li>
     </ul>
-  </nav>
+</nav>
 
   <main>
     <div class="section">
       <h2>Welcome</h2>
-      <p>Explore cat care basics, fun facts, and discover different cat breeds loved by owners everywhere.</p>
+      <p>Explore cat care basics, fun facts, and discover different cat breeds loved by owners everywhere</p>
     </div>
 
     <div class="section">
@@ -44,18 +84,27 @@
 
     <div class="section">
       <h2>Behavior & Health</h2>
-      <p>Learn how to understand your cat’s quirks and how to help them stay healthy and active!</p>
+      <p>Learn how to understand your cats quirks and how to help them stay healthy and active!</p>
     </div>
 
     <div class="section">
       <h2>Fun Facts</h2>
       <ul>
-        <li>Cats sleep 12–16 hours a day!</li>
+        <li>Cats sleep 12 to 16 hours a day!</li>
         <li>Cats can jump up to 6 times their height!</li>
-        <li>No two cats have the same nose print.</li>
+        <li>No two cats have the same nose print</li>
       </ul>
     </div>
   </main>
+
+  <section class="cat-gallery-area">
+    <h2>Featured Felines</h2>
+    <div class="cat-gallery-row">
+      <img src="catindex1.jpeg" alt="Cat 1">
+      <img src="catindex2.avif" alt="Cat 2">
+      <img src="catindex3.avif" alt="Cat 3">
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2025 Pet Forum. Thanks for visiting!</p>
