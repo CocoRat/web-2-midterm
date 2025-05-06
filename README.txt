@@ -1,12 +1,13 @@
 Web Design 2 Midterm
 
 PAGES:
-Cats - Molly
+Homepage - Sydney
 Dogs - Sydney
-FAQ - Fred
-About us/Priv Policy/Contat - Molly
-Forum - Maya
+Cats - Molly
 Gallery - Sydney
+Forum - Maya
+FAQ - Fred
+About - Molly
 
 ROLES:
 Lead Design: Fred
