@@ -7,45 +7,46 @@
     <title>Cats vs Dogs - Pet Forum</title>
     <link rel="stylesheet" href="css/maya.css">
     <link rel="stylesheet" href="css/group.css">
-    <link rel="stylesheet" href="https://use.typekit.net/gcd0zol.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kdu0bsa.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body class="w3-container w3-center w3-animate-opacity">
-    <div>
-        <header>
-            <img src="images/cat1.jpg" class="img-fluid" alt="forum header image"
-                style="width: 100%; height: 200px; position: relative;  display: flex; overflow: hidden;">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="dogs.html">Dogs</a></li>
-                    <li><a href="Cat.html">Cats</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a class="active" href="forums.html">Forums</a></li>
-                    <li><a href="FAQ.html">FAQ</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
+<body class="w3-container w3-center w3-animate-opacity primary-background">
 
-    <div class="container-fluid pb-3">
-        <div class="row text-left p-3 bg-body rounded shadow-sm">
-            <div class="col-md-8">
+    <header>
+        <h1>Forums</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dogs.html">Dogs</a></li>
+                <li><a href="Cat.html">Cats</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a class="active" href="forums.html">Forums</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="bg-light">
+        <div class="row text-left p-3 rounded shadow-sm">
+            <div class="col-md-8 ">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="my-3 p-3 bg-secondary rounded">
-                            <h4 class="border-bottom pb-2 mb-2">Welcome!</h4>
+                        <div class="my-3 p-3 rounded bg-secondary-subtle">
+
+                            <h4 class="border-bottom pb-2 mb-2 text-body-emphasis fw-bold">Welcome!</h4>
                             <div class="form-floating pb-3" action="#" id="post-form" method="POST">
                                 <input type="text" class="form-control" id="message">
                                 <label for="newpost">Type a new post...</label>
                             </div>
-                            <button class="btn btn-primary py-2" type="submit" id="postBtn">Post</button>
+                            <button class="py-2" type="submit" id="postBtn">Post</button>
                             <button class="btn py-2" id="loadBtn">Load posts</button>
                             <div id="output">Loading…</div>
                         </div>
@@ -54,7 +55,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="my-2 p-3 bg-secondary rounded">
+                        <div class="my-2 p-3 rounded bg-secondary-subtle">
                             <table class="table table-hover table-secondary">
                                 <thead class="thead-light">
                                     <tr>
@@ -75,28 +76,45 @@
             <div class="col-md-4">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="my-3 p-3 bg-secondary rounded">
-                            <h4 class="border-bottom pb-2 mb-2">Discussion Board</h4>
+                        <div class="my-3 p-3 bg-secondary-subtle rounded">
+                            <h4 class="border-bottom pb-2 mb-2 fw-bold">Discussion Board</h4>
                             <p class="pb-3 mb-3 small lh-sm">A forum community for dog and cat owners and enthusiasts.
                                 Come join the discussion about breeds, training, puppies, food reviews, service animals,
                                 and more.</p>
-                            <button class="btn btn-primary w-100 py-2" type="submit">Join Today</button>
+                            <button class="w-100 py-2" type="submit">Join Today</button>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="my-3 p-3 bg-secondary rounded">
-                            <h4 class="border-bottom pb-2 mb-2">Top Contributors</h4>
-                            <ul>
-                                <li>John Smith</li>
-                                <li>John Smith</li>
-                                <li>John Smith</li>
-                            </ul>
+                        <div class="my-3 p-3 bg-secondary-subtle rounded">
+                            <h4 class="border-bottom pb-2 mb-2 fw-bold">Top Contributors</h4>
+                            <div class="align-items- list-group">
+                                <a class="list-group-item list-group-item-action py-3 lh-sm" href="#"><strong
+                                        class="mb-1">John Smith</strong>
+                                    <div class="mb-1 small">103 posts</div>
+                                </a>
+                                </a>
+                                <a class="list-group-item list-group-item-action py-3 lh-sm" href="#"><strong
+                                        class="mb-1">John Smith</strong>
+                                    <div class="mb-1 small">8 posts</div>
+                                </a>
+                                <a class="list-group-item list-group-item-action py-3 lh-sm" href="#"><strong
+                                        class="mb-1">John Smith</strong>
+                                    <div class="mb-1 small">8 posts</div>
+                                </a></a>
+                                <a class="list-group-item list-group-item-action py-3 lh-sm" href="#"><strong
+                                        class="mb-1">John Smith</strong>
+                                    <div class="mb-1 small">2 posts</div>
+                                </a></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <footer>
+                <p>&copy; 2025 Pet Forum. Thanks for visiting!</p>
+            </footer>
         </div>
 
 

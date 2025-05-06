@@ -1,38 +1,3 @@
-.grid-container {
-    display: grid;
-    padding: 5px;
-    gap: 5px;
-    grid-template-columns: 35% 35% 30%;
-}
-
-.grid-item {
-    text-align: left;
-    background-color: cornflowerblue;
-    font-size: 30px;
-    padding: 20px;
-}
-
-.main1 {
-    background-color: lightblue;
-    grid-column: 1 / span 2;
-    grid-row: 1;
-
-}
-
-.main2 {
-    background-color: lightblue;
-    grid-column: 1 / span 2;
-    grid-row: 2;
-
-}
-
-.sidenav {
-    background-color: lightblue;
-    grid-column: 3;
-    grid-row: 1 / span 3;
-
-}
-
 .forum-row {
     text-align: left;
     padding: 20px;
@@ -46,18 +11,14 @@
     font-stretch: condensed;
 }
 
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "jumble", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.primary-background {
+    background-color: #05badd;
 }
 
-body {
-    background-color: aqua;
+button {
+    background-color: #ff3902;
 }
+
+button:hover {
+    background-color: #ff8007;
+  }
