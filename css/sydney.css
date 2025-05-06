@@ -78,3 +78,12 @@ main {
   color: #ff3902 !important;
   background-color: none !important;
 }
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background-color: #fff;
+  color: #2c2c2c;
+  border-top: 1px solid #ddd;
+}
